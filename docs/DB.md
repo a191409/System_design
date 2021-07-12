@@ -14,8 +14,6 @@
 |id|ユーザー識別ID|登録した順に自動的に入力される番号|INT|NO|○|NULL|auto_increment|
 |names|ログインID|半角20文字まで|VARCHAR(20)|NO||NULL|データベースに登録されている他のユーザーIDと同一を認めない。|
 |passes|パスワード|半角20文字まで|VARCHAR(20)|NO||NULL||
-|created_at|作成日|半角20文字まで|VARCHAR(20)|NO||NULL||
-|updated_at|更新日|半角20文字まで|VARCHAR(20)|NO||NULL||
 
 ### matches
 |カラム名|項目名|概要|データ型|NULLを許容|PRI|DEFAULT|備考|
