@@ -27,8 +27,6 @@
 |id|スコア識別ID|登録した順に自動的に入力される番号|INT|NO|○|NULL|auto_increment|
 |score|スコア|スコアの値|INT|NO||NULL||
 |users_id|ユーザー識別ID|登録した順に自動的に入力される番号|INT|NO|○|NULL|usersテーブルのid|
-|results_id|対戦結果識別ID|登録した順に自動的に入力される番号|INT|NO|○|NULL|resultsテーブルのid|
-
 
 ### results
 |カラム名|項目名|概要|データ型|NULLを許容|PRI|DEFAULT|備考|
